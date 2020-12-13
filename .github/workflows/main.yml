@@ -37,6 +37,7 @@ jobs:
       - run: yarn install
       
       - run: yarn cy:run
+        continue-on-error: true
       
       - run: yarn reṕort:merge
         
