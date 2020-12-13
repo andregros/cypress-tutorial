@@ -39,9 +39,9 @@ jobs:
       - run: yarn cy:run
         continue-on-error: true
       
-      - run: yarn reṕort:merge
+      - run: yarn report:merge
         
-      - run: yarn reṕort:mocha
+      - run: yarn report:mocha
       
       - name: Deploy to GithubPages
         uses: JamesIves/github-pages-deploy-action@3.7.1
